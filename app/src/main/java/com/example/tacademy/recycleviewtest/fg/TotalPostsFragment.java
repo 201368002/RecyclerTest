@@ -31,7 +31,7 @@ public class TotalPostsFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_total_posts, container, false);
         // 화면 구성 세팅..
-        recyclerView = (RecyclerView)view.findViewById(R.id.recyclerView);
+        recyclerView = (RecyclerView)view.findViewById(R.id.recyclerview);
         // 레이아웃 세팅
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getContext());
         linearLayoutManager.setStackFromEnd(true);

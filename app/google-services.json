@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "863986399869",
+    "firebase_url": "https://databasetest-4145f.firebaseio.com",
+    "project_id": "databasetest-4145f",
+    "storage_bucket": "databasetest-4145f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:863986399869:android:8f95028bb5803c76",
+        "android_client_info": {
+          "package_name": "com.example.tacademy.recycleviewtest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "863986399869-haq10tat0iuc93i19um530kugpbs3qfc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClszi23YIL3-RmHUunBaUC0ymnHrBLaEI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
