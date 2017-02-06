@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@drawable/ic_profile"
+                android:id="@+id/profile"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:text="uid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/nickName"
+                android:layout_weight="1"
+                android:layout_gravity="center|left"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/heart"
+                android:layout_weight="1"
+                app:srcCompat="@android:drawable/star_on" />
+
+            <TextView
+                android:text="nickname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/heart_count"
+                android:layout_weight="1"
+                android:layout_gravity="center|left"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="제목"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:textStyle="normal|bold"
+            android:padding="10dp"/>
+
+        <TextView
+            android:text="희망키움통장(Ⅱ)이란?  3년 간 본인적립금 10만원씩 불입하고 정부에서 근로소득장려금을 10만원씩 지원하여 3년 만기 시 720만원을 수령해가는 적금 통장  - 접수기간 : ‘17.2.6.(월) ~‘17.2.17.(금) - 접수방법 : 거주지관할 동 주민센터 방문접수 - 가입대상 : 소득 인정액이 기준 중위소득 50%이하인 주거·교육 급여 수급 가구 및                     기타 차상위 계층으로서 현재 근로 활동 중인 가구 - 필수사항 : 3년 내내 근로 소득이 있어야 하며, 연2회(3년간 총 6회) 교육 이수 - 기타사항 : 주 소득자가 신용불량자 등일 경우 다른가구원 명의로 가입 가능 - 유지기준 : 3년 간 연 1회 소득 조사 시 가구의 총 근로(사업)소득이 기준 중위 소득 70%이하를 유지하여야 함 - 지참서류     1. 재직증명서(현재 근로사실 확인 서류)    2. 고용임금확인서(4대보험 미가입자 또는 일용근로자 등 공적으로 소득 확인이 불가능한 자)    3. 거주지 계약서(전·월세 거주자), 사용대차확인서(사용대차중인자)   문 의 : 사회보장과 자활지원팀 ☎032)509-6493 또는 동 주민센터 "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/content"
+            android:padding="10dp"/>
+    </LinearLayout>
+</LinearLayout>
+</android.support.v7.widget.CardView>
